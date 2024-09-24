@@ -12,6 +12,9 @@ const Browse = () => {
 
   return (
     <>
+    {/* in header the title signout profile */}
+    {/* in MainContainer the background video title  */}
+    {/* in secondaryContainer having n number of list of the movies */}
       <Header/>
       <MainContainer/>
       <SecondaryContainer/>
