@@ -55,10 +55,10 @@ const Login = () => {
                 email:email,
                 displayName:displayName
               }));
-              console.log(displayName)
+              // console.log(displayName)
         });
         
-        console.log(user);
+        // console.log(user);
         
         
       })
@@ -94,7 +94,9 @@ const Login = () => {
     <Header/>
     <div className='relative min-h-screen'>
       <div className='fixed inset-0'>
-        <img className='w-full h-full object-cover' src={BG_URL} alt="background"/>
+        <img className='w-full h-full object-cover' 
+          src={BG_URL} 
+          alt="background"/>
       </div>
 
       <div className='relative flex items-center justify-center min-h-screen'>
