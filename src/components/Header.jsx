@@ -90,7 +90,7 @@ const Header = () => {
           </button>
           
           <img 
-          className='w-10 h-10'
+          className='w-12 h-15'
           src={USER_AVATAR}
           alt="usericon" />
 
