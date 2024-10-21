@@ -8,7 +8,7 @@ export const validate=(email,password)=>{
         return 'Invalid Email';
     }
     if(!isPasswordValid){
-        return 'Inavlid Password';
+        return 'Invalid Password';
     }
 
     return null;
